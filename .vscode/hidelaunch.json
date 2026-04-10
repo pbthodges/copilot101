@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "editor-browser",
+            "request": "launch",
+            "name": "Integrated Browser (index.html)",
+            "url": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}",
+            "pathMapping": {
+                "/": "${workspaceFolder}/"
+            }
+        },
+
+        {
+            "type": "chrome",
+            "name": "http://localhost:3000",
+            "request": "launch",
+            "url": "http://localhost:3000"
+        }
+    ]
+}

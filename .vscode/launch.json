@@ -1,10 +1,12 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
-            "name": "http://localhost:3000",
+            "name": "Launch Integrated Browser",
             "request": "launch",
-            "url": "http://localhost:3000"
+            "type": "editor-browser",
+            "url": "file:///${workspaceFolder}/index.html",
         }
+
     ]
 }
